@@ -10,6 +10,7 @@ public class SplitNumbers extends AbstractCodingTask implements ICodingTask {
 
     @Override
     public void run() {
+        printTaskHeader();
         int[] input = new int[]{3,5,7,6,8};
         int res = solution(input);
         this.printResultForInput("Split numbers 1", input, res);

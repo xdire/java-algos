@@ -12,6 +12,7 @@ public class CyclicRotation extends AbstractCodingTask implements ICodingTask {
      */
     @Override
     public void run() {
+        printTaskHeader();
         run(3);
     }
 
