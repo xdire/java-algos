@@ -2,6 +2,7 @@ package examples;
 
 import examples.a_split_numbers.SplitNumbers;
 import examples.b_cyclic_rotation.CyclicRotation;
+import examples.c_stack_brackets.BracketsParse;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -16,6 +17,7 @@ public class CodingTaskLauncher {
          */
         CodingTaskLauncher.addTask(new SplitNumbers());
         CodingTaskLauncher.addTask(new CyclicRotation());
+        CodingTaskLauncher.addTask(new BracketsParse());
         /*
          *  Runner stage
          */
